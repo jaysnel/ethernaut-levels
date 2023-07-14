@@ -73,3 +73,8 @@ Now that we have taken ownership we are fre to withdraw all of the money!
 > await contract.withdraw()
 
 Submit Instance
+
+What I learned:
+1. Fallback functions in solidity are very importantant and gives you a way to interact with a contract even if you do not use its native functions.
+2. send() and sendTransaction() are native functions to any contract.
+3. Beware of the way you set the owner of a contract.
