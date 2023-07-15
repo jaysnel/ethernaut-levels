@@ -118,6 +118,6 @@ This part is where we call the flip contract no matter the outcome. Because our 
 ICoinFlip(hackedContract).flip(_guess);
 ```
 
-## What I learned:
+## What I learned
 1. Connecting to an external contract to call functions.
 2. How using blockhash or anything that is attached to the current transaction is not a good for randomization since this can be manipulated.
