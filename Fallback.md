@@ -1,4 +1,6 @@
-Below is the following contract for Fallback:
+# Fallback:
+
+### Contract Code
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -43,6 +45,8 @@ contract Fallback {
   }
 }
 ```
+
+# Solution
 In this contract, there are 3 important functions to notice:
 >contribute();
 >recieve();
@@ -72,9 +76,7 @@ This will cause the contract to give ownership to us as we fufill the required s
 Now that we have taken ownership we are fre to withdraw all of the money!
 > await contract.withdraw()
 
-Submit Instance
-
-What I learned:
+# What I learned
 1. Fallback functions in solidity are very importantant and gives you a way to interact with a contract even if you do not use its native functions.
 2. send() and sendTransaction() are native functions to any contract.
 3. Beware of the way you set the owner of a contract.
